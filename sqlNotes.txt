@@ -34,3 +34,5 @@ JPA directly maps "Course" bean to table in db.
      Just Map Entities to Tables! 
 
  SPRING DATA JPA
+     Makes JPA even more simple!
+     Takes care of everything!
