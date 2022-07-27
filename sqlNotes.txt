@@ -36,3 +36,17 @@ JPA directly maps "Course" bean to table in db.
  SPRING DATA JPA
      Makes JPA even more simple!
      Takes care of everything!
+     
+     
+Hibernate vs JPA
+
+ **JPA defines the specification.It is an API.
+   How do you define entities?
+   How do you map attributes?
+   Who manages the entities?
+   
+ **Hibernate is one of the popular implementations of JPA
+ **Using Hibernate directly would result in a lock in to a Hibernate
+   There are other JPA implementations( Toplink, for example)
+ 
+ 
