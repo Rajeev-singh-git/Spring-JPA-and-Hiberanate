@@ -32,3 +32,5 @@ JPA directly maps "Course" bean to table in db.
  JPA
      Do not worry about queries
      Just Map Entities to Tables! 
+
+ SPRING DATA JPA
