@@ -1,7 +1,16 @@
 package com.in28minutes.springboot.learnjpaandhibernate.course;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
+	
+	@Id
 	private long id;
+	
+	@Column(name="name") //Column name is not mandatory b/z we are mapping with same column name, If column name is different in table then it is mandatory.
 	private String name;
 	private String author;
 	

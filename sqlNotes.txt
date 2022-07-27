@@ -6,3 +6,29 @@ select * from course;
 delete from course where id=1; 
 
 select * from course;
+
+
+Commit =  Getting Started with JPA and EntityManager
+
+We used spring jdbc until now, we found java codes  are simple but 
+for each step it is increasing. For large tables it may become really 
+complex.
+
+JPA directly maps "Course" bean to table in db.
+
+1.)Define entity
+2.)Define repository to use entity.
+ 
+"spring.jpa.show-sql=true" = It will show all the sql command in log 
+
+ JDBC
+    Writes a lot of SQL queries!(delete from todo where id=?)
+    And write a lot of Java code
+ 
+ SPRING JDBC
+     Writes a l;ot of SQL queries
+     BUT lesser java codes
+    
+ JPA
+     Do not worry about queries
+     Just Map Entities to Tables! 
